@@ -1,7 +1,7 @@
 public class PairsInArray {
     public static void main(String[] args) {
         int arr[] = {0, 2, 4, 6, 8};
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<arr.length; i++){ 
             for(int j=i+1; j<arr.length; j++){
                 System.out.print("("+arr[i]+","+arr[j]+")"+ " ");
             }
@@ -9,3 +9,6 @@ public class PairsInArray {
         }
     }
 }
+
+// TC = O(n2)
+// total pairs = n(n-1)/2
